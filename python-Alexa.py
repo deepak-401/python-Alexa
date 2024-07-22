@@ -37,11 +37,11 @@ def process_command(command):
         time = datetime.datetime.now().strftime('%I:%M %p')
         talk(f'Current time is {time}')
         print(time)
-    elif 'who is' in command or 'what is' in command:
+    elif 'who is' in command or 'what is' in command or 'where is' in command or 'list' in command:
         person = command.replace('who is', '').replace('what is', '').strip()
-        info = wikipedia.summary(person, 1)
-        talk(info)
+        info = wikipedia.summary(person, 10)
         print(info)
+        talk(info)
     elif 'date' in command:
         talk('Sorry buddy, I have a boyfriend')
     elif 'joke' in command:
