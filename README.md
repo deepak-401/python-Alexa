@@ -16,14 +16,14 @@ This project is an Alexa-like voice assistant that uses Python to recognize spee
 1. Clone the repository:
    ```bash
    git clone https://github.com/deepak-401/python-Alexa.git
-   cd voice-assistant
+   cd python-Alexa
    ```
 
 ## Usage
 
 Run the `python-Alexa.py` script:
 ```bash
-python python-ALexa.py
+python python-Alexa.py
 ```
 
 The assistant will start listening for your commands. Here are some example commands you can use:
@@ -57,4 +57,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
-Feel free to modify any part to better suit your project's needs!
