@@ -15,20 +15,15 @@ This project is an Alexa-like voice assistant that uses Python to recognize spee
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/voice-assistant.git
+   git clone https://github.com/deepak-401/python-Alexa.git
    cd voice-assistant
-   ```
-
-2. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
    ```
 
 ## Usage
 
-Run the `voice_assistant.py` script:
+Run the `python-Alexa.py` script:
 ```bash
-python voice_assistant.py
+python python-ALexa.py
 ```
 
 The assistant will start listening for your commands. Here are some example commands you can use:
@@ -41,8 +36,7 @@ The assistant will start listening for your commands. Here are some example comm
 
 ## Project Structure
 
-- `voice_assistant.py`: Main script that runs the voice assistant.
-- `requirements.txt`: List of required Python packages.
+- `python-Alexa.py`: Main script that runs the voice assistant.
 
 ## Dependencies
 
